@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "faye-websocket", "~> 0.10.9"
   spec.add_dependency "eventmachine", "~> 1.2.7"
-  spec.add_dependency "activesupport", "~> 5.2.4"
+  spec.add_dependency "activesupport", ">= 6.0.0"
   spec.add_dependency "scale.rb", "~> 0.2.5"
 
   spec.add_development_dependency "bundler", "~> 1.17"
